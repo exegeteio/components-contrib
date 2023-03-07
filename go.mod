@@ -40,7 +40,7 @@ require (
 	github.com/go-redis/redis/v7 v7.0.1
 	github.com/gocql/gocql v0.0.0-20191018090344-07ace3bab0f8
 	github.com/golang/mock v1.4.0
-	github.com/golang/protobuf v1.3.3
+	github.com/golang/protobuf v1.4.2
 	github.com/google/uuid v1.1.1
 	github.com/grandcat/zeroconf v0.0.0-20190424104450-85eadb44205c
 	github.com/hashicorp/consul/api v1.2.0
@@ -49,12 +49,11 @@ require (
 	github.com/influxdata/influxdb-client-go v1.4.0
 	github.com/jackc/pgx/v4 v4.6.0
 	github.com/json-iterator/go v1.1.8
-	github.com/lib/pq v1.8.0 // indirect
 	github.com/mitchellh/mapstructure v1.3.2 // indirect
 	github.com/nats-io/go-nats v1.7.2
-	github.com/nats-io/nats-streaming-server v0.17.0 // indirect
-	github.com/nats-io/nats.go v1.9.1
-	github.com/nats-io/stan.go v0.6.0
+	github.com/nats-io/nats-streaming-server v0.24.3 // indirect
+	github.com/nats-io/nats.go v1.13.1-0.20220308171302-2f2f6968e98d
+	github.com/nats-io/stan.go v0.10.2
 	github.com/open-policy-agent/opa v0.23.2
 	github.com/openzipkin/zipkin-go v0.1.6
 	github.com/patrickmn/go-cache v2.1.0+incompatible
@@ -74,8 +73,8 @@ require (
 	go.etcd.io/etcd v3.3.17+incompatible
 	go.mongodb.org/mongo-driver v1.1.2
 	go.opencensus.io v0.22.3
-	golang.org/x/crypto v0.0.0-20200604202706-70a84ac30bf9
-	golang.org/x/net v0.0.0-20200602114024-627f9648deb9
+	golang.org/x/crypto v0.0.0-20220307211146-efcb8507fb70
+	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	google.golang.org/api v0.15.0
 	google.golang.org/genproto v0.0.0-20200122232147-0452cf42e150
